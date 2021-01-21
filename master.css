@@ -1,17 +1,19 @@
-body {
-  height: 500px;
+/* dimensioni colonne vuote, da cancellare quando riempite  */
+
+div[class^="colonna-"] {
+  height: 100px;
 }
 
-body header, body main, body footer, body div {
-  height: 50%;
-}
+/* clearing */
 
 .riga::after {
   content: "";
   clear: both;
   display: table;
-
+  margin: 10px 0px;
 }
+
+/* dati colonne */
 
 [class^="colonna-"] {
   float: left;
@@ -21,10 +23,16 @@ body header, body main, body footer, body div {
   width: 100%;
 }
 
+/* colori colonne */
+
 .pink {
   background-color: pink;
 }
 
 .yellow {
   background: yellow;
+}
+
+.viola {
+  background-color: purple;
 }
