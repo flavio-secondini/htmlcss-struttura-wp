@@ -1,0 +1,30 @@
+body {
+  height: 500px;
+}
+
+body header, body main, body footer, body div {
+  height: 50%;
+}
+
+.riga::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+
+[class^="colonna-"] {
+  float: left;
+}
+
+.colonna-100 {
+  width: 100%;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.yellow {
+  background: yellow;
+}
