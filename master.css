@@ -23,6 +23,14 @@ div[class^="colonna-"] {
   width: 100%;
 }
 
+.colonna-20 {
+  width: 20%;
+}
+
+.colonna-60 {
+  width: 60%;
+}
+
 /* colori colonne */
 
 .pink {
@@ -31,6 +39,9 @@ div[class^="colonna-"] {
 
 .yellow {
   background: yellow;
+}
+.cyan {
+  background-color: cyan;
 }
 
 .viola {
