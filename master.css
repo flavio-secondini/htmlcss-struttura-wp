@@ -21,7 +21,7 @@
 
 /* impostazioni generali colonne */
 
-[class^="colonna-"] {
+[class^="colonna-"], .background {
   float: left;
 }
 
@@ -30,21 +30,11 @@
 }
 
 .colonna-20 {
-  width: 16%;
-  margin: 15px 15px 15px 0px;
+  width: 17%;
 }
 
 .colonna-60 {
-  width: 875px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.right-float {
-  float:right;
-  margin: 15px 0px 15px 15px;
+  width: 60%;
 }
 
 /* impostazioni colori */
@@ -57,9 +47,6 @@
 .yellow {
   background: yellow;
 }
-.cyan {
-  background-color: cyan;
-}
 
 .viola {
   background-color: purple;
@@ -67,6 +54,12 @@
 
 .blue {
   background-color: blue;
+}
+
+.background {
+  background-color: cyan;
+  width: 100%;
+  height: 400px;
 }
 
 
@@ -90,4 +83,13 @@
 
 .foot > .colonna-100 {
   height: 40px;
+}
+
+/* padding */
+
+.colonna-20, .colonna-60 {
+  padding: 15px;
+}
+
+* {
 }
